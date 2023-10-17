@@ -7,6 +7,7 @@
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>
 #include <zephyr/drivers/sensor.h>
+#include "dht_driver.h"
 #include <stdio.h>
 
 static const char *now_str(void)

@@ -1,4 +1,4 @@
-config DHT
+config SENSOR1
 	bool "DHT Temperature and Humidity Sensor"
 	default y
 	depends on DT_HAS_AOSONG_DHT_ENABLED

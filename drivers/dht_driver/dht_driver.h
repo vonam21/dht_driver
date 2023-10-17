@@ -8,7 +8,7 @@
 #define ZEPHYR_DRIVERS_SENSOR_DHT_DHT_H_
 
 #include <zephyr/device.h>
-
+#include <zephyr/drivers/gpio.h>
 #define DHT_START_SIGNAL_DURATION		18000
 #define DHT_SIGNAL_MAX_WAIT_DURATION		100
 #define DHT_DATA_BITS_NUM			40
