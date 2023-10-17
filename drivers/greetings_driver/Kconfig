@@ -1,0 +1,10 @@
+config GREETINGS_DRIVER
+    bool "Formal greetings driver"
+    help
+        Formal greetings driver
+
+config GREETINGS_PROMPT
+    string "Change how the driver greets the users"
+    default "Hello from the kernel"
+    help
+        Provide configuration option to change the greeting prompts of the driver

@@ -1,0 +1,9 @@
+
+
+menu "My drivers"
+
+rsource "sample_gpio_driver/Kconfig"
+rsource "greetings_driver/Kconfig"
+rsource "dht_driver/Kconfig"
+
+endmenu

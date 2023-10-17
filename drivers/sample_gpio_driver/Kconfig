@@ -1,0 +1,22 @@
+
+menuconfig THIS_IS_MY_DRIVER
+    bool "My sample basic gpio sensor driver"
+    help
+        My sample basic gpio sensor driver
+
+config SAMPLE_GPIO_DRIVER
+    bool "My sample basic gpio sensor driver"
+    help
+        My sample basic gpio sensor driver
+
+
+config CONFIG_NEW_GPIO_DRIVER_V2
+    bool "Use sample_gpio"
+    help
+        Select this to use the serious driver
+config FUNNY_DRIVER_NAME
+    bool "Use my funny driver"
+    default y
+    depends on DT_HAS_ZEPHYR_FUNNY_DRIVER_NAME_ENABLED
+    help
+        Select this to use the funny driver
